@@ -1,0 +1,88 @@
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Franco Gael}{Miranda Sánchez}
+\address{Concepción}{Chile}{Soltero}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+56~(9)~93744932}                   % optional, remove / comment the line if not wanted
+\email{saanchezfranco@gmail.com}                               % optional, remove / comment the line if not wanted
+
+
+
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Antecedentes personales}
+\cvitemwithcomment{Profesión}{}{Ingeniero Informático}
+\cvitemwithcomment{Rut}{}{17.910.018-5}
+\cvitemwithcomment{Fecha de nacimiento}{}{15 de noviembre de 1992}
+\cvitemwithcomment{Nacionalidad}{}{Chilena}
+
+\section{Antecedentes académicos}
+\cventry{1999--2006}{Primer año básico}{Escuela Libertador Cap. Gral. Bernardo O'Higgins R.}{Punta Arenas}{\textit{Octavo año básico}}{}  % arguments 3 to 6 can be left empty
+\cventry{2007--2010}{Primer año medio}{Liceo Experimental UMAG}{Punta Arenas}{\textit{Cuarto año medio}}{}
+\cventry{2012--2014}{Analista Programador}{Universidad Tecnológica de Chile INACAP}{Punta Arenas}{}{}
+\cventry{2014--2015}{Ingeniería en Informática}{Universidad Tecnológica de Chile INACAP}{Punta Arenas}{}{}
+
+
+\section{Antecedentes laborales}
+\cventry{2012--2014}{Asistente de ventas y cajero}{Importadora y Comercializadora Pacífico Digital Limitada}{Punta Arenas}{}{}
+\cventry{2015}{Realización de software a medida "Control de existencia y solicitud de insumos". }{Servicio de Salud Magallanes}{Punta Arenas}{}{Java JSP, MySQL, Apache Tomcat, Jquery, Bootstrap, JSON, Datatable, Highcharts}
+\cventry{2015}{Desarrollo de página web}{EPSA y Cía. Ltda.}{Punta Arenas}{}{}
+\cventry{2015-2016}{Proyecto Renovatec Minsal Fase 2}{Integradores de Tecnología y Sistemas S.A.}{Magallanes}{}{}
+\cventry{2016}{Desarrollo de página web}{MAGOR Desarrollo Informático}{Punta Arenas}{}{}
+\cventry{2016}{Desarrollo de página web}{Club De Leones Punta Arenas}{Punta Arenas}{}{}
+\cventry{2016}{Desarrollo de página web}{Miriam Robinson Propiedades}{Punta Arenas}{}{}
+\cventry{2016}{Desarrollo de página web}{Hostal Labarca}{Punta Arenas}{}{}
+\cventry{2016}{Desarrollo de página web}{IVAS Informática e Ingeniería}{Punta Arenas}{}{}
+\cventry{2017}{Desarrollo de página web}{Comercial CAFL Ltda.}{Concepción}{}{}
+\cventry{Octubre 2016 - Actualidad}{Desarrollador Informático}{INGGEPRO Ltda.}{Concepción}{}{}
+
+
+\begin{itemize}
+\item Implementación y desarrollo de tecnología Arduino y VBA Macros en crawler para toma de datos de pendiente y distancia en cámaras de inspección televisiva.
+\item Desarrollo de software de captura de datos en terreno con formularios dinámicos. Basado en Leaflet, OpenStreetMap y GeoServer.
+\item Desarrolo de página web móvilGIS (www.movilgis.cl).
+\item Desarrollo de scripts en Python para automatización de tareas en software ArcGIS bajo el paquete de sitio Arcpy.
+\end{itemize}
+
+\section{Idiomas}
+\cvitemwithcomment{Lenguaje}{Inglés}{Nivel Intermedio}
+
+
+
+\fancyfoot[C]{Escrito en LaTeX }
+\end{document}
+
+
+%% end of file `template.tex'.
